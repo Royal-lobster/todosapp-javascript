@@ -1,0 +1,192 @@
+ * {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+html, body {
+  background-image: linear-gradient( 90deg,  rgba(252,149,88,1) 33%, rgba(228,63,63,1) 90.9% );
+  width: 100%;
+  height: 100%;
+}
+
+
+.universal{
+  width: 100%;
+  min-height: 100%;
+
+}
+
+.main{
+  overflow: auto;
+  padding-bottom: 110px;
+}
+/* unvisited link */
+a:link {
+  color: #000;
+}
+
+/* visited link */
+a:visited {
+  color: #000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #000;
+}
+
+/* selected link */
+a:active {
+  color: #000;
+}
+.cont {
+  background: hsla(0, 0%, 0%, 0.5);
+  margin: 10px;
+  padding: 34px;
+  text-align: center;
+}
+
+#time {
+  font-size: 4rem;
+  color: #7a402a;
+  background: #fff;
+  padding: 15px;
+}
+
+#greeting {
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.space{
+  margin: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.txtb {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  padding: 20px;
+}
+
+.notcomp {
+  background: rgba(175, 24, 24, 0.5);
+  border: 3px dashed;
+}
+
+.comp {
+  background: hsla(113, 77%, 17%, 0.705);
+  border: 3px dashed;
+  margin-top: 20px;
+}
+
+.task {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 18px;
+  margin: 6px;
+  overflow: hidden;
+}
+
+.task i {
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.comp .task {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.brand{
+  background: hsla(0, 0%, 0%, 0.5);
+  text-align: center;
+  height: 100px;
+  position: relative;
+  margin-top: -110px;
+  clear: both;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.brand h4{
+    padding-top: 35px;
+    font-size: 21px;
+}
+h4 .btext {
+    color:"white";
+}
+
+
+@media (max-width: 600px){
+
+  .timee {
+  font-size: 1rem;
+  color: #7a402a;
+  background: #fff;
+  padding: 10px
+}
+
+
+}
+@media (max-width: 760px) {
+    
+  #time {
+  font-size: 3rem;
+  color: #7a402a;
+  background: #fff;
+  padding: 10px
+}
+
+#greeting {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+h3 {
+  padding: 15px;
+  font-size: 16px;
+}
+.space{
+  margin: 10px;
+}
+
+.main{
+  overflow: auto;
+  padding-bottom: 130px;
+}
+
+.brand {
+     margin-top: -130px;
+     margin-bottom: 30px;
+     padding:0px;
+}
+
+.brand h4{
+    padding-top: 25px;
+    font-size: 21px;
+}
+}
